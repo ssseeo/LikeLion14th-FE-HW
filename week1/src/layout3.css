@@ -1,0 +1,130 @@
+.wrap{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: #CCCCCC;
+}
+.nav{
+    width: 1050px;
+    height: 100px;
+    background-color: #3B5A42;
+}
+
+footer{
+    width: 1250px;
+    height: 100px;
+    background-color: #334E41;
+}
+
+main{
+    width: 1250px;
+    height: 880px;
+    background-color: #DCD7CB;
+    padding: 60px 50px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.main_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.tl{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tl1{
+    width: 700px;
+    height: 190px;
+    background-image: url(img/layout3_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.tl2{
+    width: 700px;
+    height: 190px;
+    background-image: url(img/layout3_2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tr{
+    width: 400px;
+    height: 400px;
+    background-image: url(img/layout3_3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.bl{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blt{
+    display: flex;
+    gap: 20px;
+}
+
+.bl1{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+.bl2{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+.bl3{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+
+.blb{
+    display: flex;
+    gap: 20px;
+}
+
+.bl4{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+.bl5{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+.bl6{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+
+.br{
+    width: 615px;
+    height: 320px;
+    background-color: #588158;
+    border: 1px solid #000000;
+}

@@ -1,0 +1,119 @@
+.wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: #EAE9EE;
+}
+.nav{
+    width: 1080px;
+    height: 100px;
+    background-color: #C2C3D6;
+}
+
+.main_top{
+    display: flex;
+}
+
+.tl{
+    width: 250px;
+    height: 440px;
+    background-color: #E1E1F5;
+}
+
+.trt{
+    display: flex;
+}
+.trt1{
+    width: 730px;
+    height: 220px;
+    background-color: #C0C0FB;
+}
+.trt2{
+    width: 300px;
+    height: 220px;
+    background-color: #7878D4;
+}
+
+.trb{
+    display: flex;
+}
+.trb1{
+    width: 280px;
+    height: 220px;
+    background-color: #9999EF;
+}
+.trb2{
+    width: 750px;
+    height: 220px;
+    background-color: #CACBE4;
+}
+
+.main_bot{
+    display: flex;
+}
+
+.bl{
+    display: flex;
+}
+.bl1{
+    width: 177px;
+    height: 440px;
+    background-color: #7878D4;
+}
+.bl2{
+    width: 176px;
+    height: 440px;
+    background-color: #353AC2;
+}
+.bl3{
+    width: 177px;
+    height: 440px;
+    background-color: #0D1163;
+}
+
+.brt{
+    width: 750px;
+    height: 242px;
+    background-color: #666CEE;
+}
+
+.brb{
+    display: flex;
+}
+.brb1{
+    width: 372px;
+    height: 198px;
+    background-color: #7D7FA7;
+}
+.brb2{
+    width: 378px;
+    height: 198px;
+    background-color: #4C4F8C;
+}
+
+footer{
+    display: flex;
+}
+.f_left{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+.f_mid{
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
+.f_right{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}

@@ -1,0 +1,42 @@
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+header{
+    width: 1250px;
+    height: 100px;
+    background-color: #DE7D86;
+}
+
+.main_top{
+    width: 1250px;
+    height: 450px;
+    background-image: url(img/layout1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main_bot{
+    display: flex;
+    height: 430px
+}
+
+.left{
+    width: 416px;
+    background-color: #FFC5C5;
+}
+.mid{
+    width: 418px;
+    background-color: #FFA3A3;
+}
+.right{
+    width: 416px;
+    background-color: #54D8DC;
+}
+
+footer{
+    width: 1250px;
+    height: 100px;
+    background-color: #6E6875;
+}
