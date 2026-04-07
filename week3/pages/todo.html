@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="../src/todo.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>TO-DO LIST</h1>
+            <div class="add">
+                <input id="Input_Todo" type="text" placeholder="오늘 할 일을 입력해주세요!">
+
+                <button id = "addbtn">
+                    <img src="../src/img/Plus.svg" alt="add list">
+                </button>
+            </div>
+        </header>
+        <main id="main"></main>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=> {
+
+            const inputTodo = document.getElementById('Input_Todo');
+            const addbtn = document.getElementById('addbtn');
+            const main = document.getElementById('main');
+            
+            let index = 1;
+
+            addbtn.addEventListener('click', () =>
+            {
+                if (inputTodo.value.trim() === '')
+                {
+                    alert('내용을 입력해 주세요');
+                    return;
+                }
+
+                console.log(inputTodo.value)
+
+            const list = document.createElement('div');
+            list.classList.add('list');
+
+            const leftBox = document.createElement('div');
+            leftBox.classList.add('leftBox');
+
+            const checkBox = document.createElement('input');
+            checkBox.type = 'checkbox'
+            checkBox.id = `check${index}`;
+            checkBox.classList.add('checkBox');
+
+            const text = document.createElement('p');
+            text.textContent = inputTodo.value;
+            text.classList.add('todoText');
+
+            const removebtn = document.createElement('button');
+
+            removebtn.innerHTML = '<img src="../src/img/del.svg" alt="deletebtn">'
+
+            removebtn.classList.add('removebtn');
+
+            checkBox.addEventListener('change', () =>
+            {
+                if (checkBox.checked)
+                {
+                    text.style.textDecoration = 'line-through'
+                }else{
+                    text.style.textDecoration = 'none'
+                }
+            });
+
+
+            removebtn.addEventListener('click', () =>
+            {
+            main.removeChild(list);
+            });
+
+            
+            leftBox.appendChild(checkBox);
+            leftBox.appendChild(text);
+
+            list.appendChild(leftBox);
+            list.appendChild(removebtn);
+
+            main.appendChild(list);
+
+            inputTodo.value='';
+
+            index++;
+            })
+        })
+    </script>
+</body>
+</html>

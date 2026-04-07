@@ -1,0 +1,117 @@
+#wrap{
+    width: 1980px;
+    height: 1080px;
+    margin: 0 auto;
+    background-color: #92CAFF;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 108px;
+}
+
+header h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.add{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 16px 8px 16px 32px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    box-sizing: border-box;
+}
+
+#Input_Todo{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #3F6181;
+    padding-left: 10px;
+}
+
+#Input_Todo::placeholder{
+    color: #A3A3A3;
+    font-family: Pretendard;
+    font-size: 18px;
+}
+
+#addbtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+#addbtn img{
+    width: 30px;
+    height: 30px;
+}
+
+#main{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 35px 0 50px 0;
+}
+
+.list{
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #92CAFF;
+}
+
+.leftBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkBox{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #92CAFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todoText{
+    font-size: 18px;
+    color: #3F6181;
+    line-height: 1;
+}
+
+.removebtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.removebtn img{
+    width: 18px;
+    height: 18px;
+}
